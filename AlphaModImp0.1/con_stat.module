@@ -1,0 +1,9 @@
+[Module]
+Name=Container Status
+Description=Displays the status of containers
+Environments=cockpit-ws
+RequiredPackages=podman
+Requires=cockpit
+
+[Service]
+ExecStart=/bin/bash -c "bash /path/to/generate_html.sh"
