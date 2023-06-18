@@ -2,4 +2,4 @@
 Name=Container Status 0.1 Alpha
 Description=Displays the status of containers in Cockpit
 Version=0.1
-Module=container-status.module
+Module=con_stat.module #Quick file name change
